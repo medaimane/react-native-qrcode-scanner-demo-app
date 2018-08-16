@@ -16,6 +16,7 @@ export default class Main extends Component<Props> {
 
   static defaultProps = {}
 
+  // callback : Open URL or get error.
   onSuccess(e) {
     Linking
       .openURL(e.data)
@@ -25,6 +26,7 @@ export default class Main extends Component<Props> {
   render() {
       return (
           <View style={styles.container}>
+            {/* Use QRCodeScanner Package */}
             <QRCodeScanner
               onRead = {this.onSuccess.bind(this)}
               topContent = {
@@ -33,14 +35,11 @@ export default class Main extends Component<Props> {
                 </Text>
               }
               bottomContent = {
-                <View>
-                  <TouchableOpacity 
-                    style={styles.buttonTouchable}
-                    onPress={() => this.props.navigation.goBack()}
-                  >
-                    <Text style={styles.buttonText}>OK. Got it, Go back!</Text>
-                  </TouchableOpacity>
-                </View> 
+                <TouchableOpacity 
+                  style={styles.buttonTouchable}
+                  onPress={() => this.props.navigation.goBack()}>
+                  <Text style={styles.buttonText}>OK. Got it, Go back!</Text>
+                </TouchableOpacity>
               }
             />
           </View>
