@@ -4,7 +4,8 @@ Creating a React Native application :Scanning QR code for web site URL and open 
 
 # Tools
 
-React Native, React Native Camera and React Native QR Code Scanner.
+React Native Framework.
+Module : React Native Camera and React Native QR Code Scanner.
 
 # Author
 
