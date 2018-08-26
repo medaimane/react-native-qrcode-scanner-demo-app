@@ -1,6 +1,6 @@
 # React Native App for QR Code
 
-Creating a React Native application :Scanning QR code for web site URL and open this URL on browser (tested for Android)
+Creating a React Native application :Scanning QR code for web site URL and open it on browser (tested for Android)
 
 # Tools
 
