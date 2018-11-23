@@ -30,7 +30,7 @@ export default class Home extends Component<Props> {
                     this.props.navigation.navigate('Main');
                 }}
                 navigation={this.props.navigation}
-                title="Get Scanner"
+                title="scan QR"
                 style={styles.button}
                 accessibilityLabel="Get scanne QR Code"
             />
