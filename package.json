@@ -1,9 +1,12 @@
 {
-  "name": "reactnativeqrcodeapp",
+  "name": "react-native-qr-code-demo-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "cli": "node node_modules/react-native/local-cli/cli.js",
+    "start": "yarn cli start",
+    "run-ios": "yarn cli run-ios",
+    "run-android": "yarn cli run-android",
     "test": "jest"
   },
   "dependencies": {

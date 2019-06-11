@@ -1,23 +1,18 @@
-import React, {Component} from 'react';
-import {createStackNavigator} from 'react-navigation';
+import React from 'react';
+import { createStackNavigator } from 'react-navigation';
+import HomeScreen from '../screens/Home';
+import ScannerScreen from '../screens/ScannerScreen';
 
-import Home from './Home';
-import Main from './Main';
-
-
-const RootStack = createStackNavigator(
+const NavigatorStack = createStackNavigator(
   {
-    Home,
-    Main,
+    HomeScreen,
+    ScannerScreen,
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'HomeScreen',
   }
 );
 
-type Props = {};
-export default class App extends Component<Props> {
-  render() {
-    return <RootStack />;
-  }
-}
+const App = () => <NavigatorStack/>;
+
+export default App;
