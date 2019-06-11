@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "firebase": "^5.4.0",
+    "firebase": "^6.1.1",
     "react": "16.4.1",
     "react-native": "^0.57.5",
     "react-native-camera": "^1.2.0",
