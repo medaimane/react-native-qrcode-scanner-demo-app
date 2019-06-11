@@ -1,28 +1,21 @@
-# React Native App for QR Code
+# React Native App & QR Code Demo
 
-Creating a React Native application :
-Scanning QR code for web site URL and open it on browser (tested for Android)
+Creating a React Native App in order to scan a QR code for a URL and open it via the default browser (tested for Android).
 
-###### Demo & Screenshots for the app :
+![demo1](/screenshots/Screenshot_2018-08-16-13-25-28.png)
 
-<img alt="demo1" src="/screenshots/Screenshot_2018-08-16-13-25-28.png" width="240" height="400" />
+[More screenshots](/screenshots/)
 
-[view more.](/screenshots/)
+## Main components
 
-# Tools
+- React Native ( React Native Camera & React Native QR Code Scanner components).
+- React Native Navigation.
 
-React Native Framework ( React Native Camera & React Native QR Code Scanner ).
-React Navigation.
+## Creators
 
-# Author
+  Mohamed Aimane SKHAIRI
+  skhairimedaimane@gmail.com
 
-Mohamed Aimane SKHAIRI
+## License
 
-# Contact 
-
-skhairimedaimane@gmail.com
-
-# License
-
-GNU GPL v3.0.
-
+This project is open-sourced software licensed under the [MIT License](https://opensource.org/licenses/MIT).
