@@ -10,7 +10,7 @@ Main components :
 
 Demo :
 
-![demo1](/screenshots/Screenshot_2018-08-16-13-25-28.png)
+![demo1](./screenshots/Screenshot_2018-08-16-13-25-28.png)
 
 [More screenshots](/screenshots/)
 
