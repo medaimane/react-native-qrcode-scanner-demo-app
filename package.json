@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.4.1",
+    "react": "16.11.0",
     "react-native": "^0.59.9",
     "react-native-camera": "^1.2.0",
     "react-navigation": "^2.11.2"
